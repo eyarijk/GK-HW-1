@@ -57,6 +57,6 @@ class Memcached extends BaseNoSql implements NoSqlInterface
      */
     public function set(string $key, $data,int $timeout = 0): bool
     {
-        return $this->client->set($key,$data,60);
+        return $this->client->set($key,$data,$timeout);
     }
 }
