@@ -1,0 +1,20 @@
+{
+    "name": "evrey/nosql",
+    "description": "Notification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yarik",
+            "email": "eyarij@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Evrey\\NoSql\\": "src"
+        }
+    },
+    "require": {
+        "php" : "^7.2",
+        "ext-memcached": ">=2.1.0"
+    }
+}
