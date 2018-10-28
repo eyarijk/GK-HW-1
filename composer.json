@@ -15,6 +15,7 @@
     },
     "require": {
         "php" : "^7.2",
-        "ext-memcached": ">=2.1.0"
+        "ext-memcached": ">=2.1.0",
+        "ext-redis": "*"
     }
 }
